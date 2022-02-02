@@ -1,5 +1,5 @@
 <?php
-	use \Ivan\controllers\App\Routing;
+	use \Ivan\App\Routing;
 	//use \Ivan\controllers\SiteController;
 	$autoload = dirname(__FILE__) . '/vendor/autoload.php';
 	if(file_exists($autoload)) {

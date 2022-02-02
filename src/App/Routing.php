@@ -1,7 +1,7 @@
 <?php
 	
 	
-	namespace Ivan\controllers\App;
+	namespace Ivan\App;
 	
 	
 	use RuntimeException;
@@ -22,7 +22,7 @@
 			// Если мы в корне - вызываем стандартный контроллер SiteController
 			$controller = empty($controllerPathData[1]) ? 'SiteController' : $controllerPathData[1] . 'Controller';
 			
-			$controllerPath = dirname(__FILE__,2) . '/' . ucwords($controller) . '.php';
+			$controllerPath = dirname(__FILE__,2) . '/controllers/' . ucwords($controller) . '.php';
 			
 			// Вызываемый метод - вся последняя часть URL после второго слеша
 			// Если метод не указан, вызываем стандартный метод actionIndex()
@@ -69,7 +69,7 @@
 		public function notFound() {
 			// throw new RuntimeException("Route not found", 404);
 			http_response_code(404);
-			include dirname(__FILE__,3) . '/views/layouts/404.php';
+			include dirname(__FILE__,2) . '/views/layouts/404.php';
 			die;
 		}
 		

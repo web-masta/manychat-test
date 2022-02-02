@@ -2,7 +2,7 @@
 	
 	namespace Ivan\controllers;
 	
-	use Ivan\controllers\App\Controller;
+	use Ivan\App\Controller;
 	
 	class ProjectsController extends Controller
 	{

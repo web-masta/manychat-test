@@ -29,16 +29,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\wamp\www\manychat-test\src\views\site" />
-      <recent name="E:\wamp\www\manychat-test" />
-      <recent name="E:\wamp\www\manychat-test\web" />
-      <recent name="E:\wamp\www\manychat-test\src\controllers\App" />
-      <recent name="E:\wamp\www\manychat-test\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\wamp\www\manychat-test\src\views\site" />
       <recent name="E:\wamp\www\manychat-test\src\controllers" />
+      <recent name="E:\wamp\www\manychat-test\web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\manychat-test\src\App" />
+      <recent name="E:\wamp\www\manychat-test\src" />
+      <recent name="E:\wamp\www\manychat-test\src\views\site" />
+      <recent name="E:\wamp\www\manychat-test" />
       <recent name="E:\wamp\www\manychat-test\web" />
     </key>
   </component>
@@ -55,7 +55,7 @@
       <workItem from="1643746327750" duration="6672000" />
       <workItem from="1643791638175" duration="63000" />
       <workItem from="1643792248225" duration="258000" />
-      <workItem from="1643818786914" duration="1437000" />
+      <workItem from="1643818786914" duration="7267000" />
     </task>
     <servers />
   </component>
