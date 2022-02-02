@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6230c08-07ef-4e87-9b95-5a7ea9e995bf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="24NM9x89fU5qU6yJXDvXuyAjO6J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/site" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\manychat-test\src\views\site" />
+      <recent name="E:\wamp\www\manychat-test" />
+      <recent name="E:\wamp\www\manychat-test\web" />
+      <recent name="E:\wamp\www\manychat-test\src\controllers\App" />
+      <recent name="E:\wamp\www\manychat-test\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\manychat-test\src\views\site" />
+      <recent name="E:\wamp\www\manychat-test\src\controllers" />
+      <recent name="E:\wamp\www\manychat-test\web" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6230c08-07ef-4e87-9b95-5a7ea9e995bf" name="Default Changelist" comment="" />
+      <created>1643466443089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643466443089</updated>
+      <workItem from="1643466444131" duration="8889000" />
+      <workItem from="1643641154943" duration="23513000" />
+      <workItem from="1643746327750" duration="6672000" />
+      <workItem from="1643791638175" duration="63000" />
+      <workItem from="1643792248225" duration="258000" />
+      <workItem from="1643818786914" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="268" y="115" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1643748670379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="115" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643748670379" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1643474510033">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1643474510033" />
+    <state x="775" y="243" key="NewPhpClassDialog" timestamp="1643666762390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="775" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643666762390" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1643747744577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1643747744577" />
+  </component>
+</project>

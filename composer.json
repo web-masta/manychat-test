@@ -1,0 +1,23 @@
+{
+    "name": "ivan/manychat-test",
+    "description": "Manychat test MVP app",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ivan\\": "src/"
+        },
+        "files": [
+            "common/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ivan",
+            "email": "ivan.webmasta@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
