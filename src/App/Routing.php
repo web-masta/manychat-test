@@ -6,8 +6,6 @@
 	
 	use Ivan\App\Config;
 	
-	//use RuntimeException;
-	
 	class Routing
 	{
 		
@@ -76,10 +74,8 @@
 		}
 		
 		public function notFound() {
-			// throw new RuntimeException("Route not found", 404);
 			http_response_code(404);
 			include dirname(__FILE__,2) . '/views/layouts/404.php';
-			//die;
 		}
 		
 	}
