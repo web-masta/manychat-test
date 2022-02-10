@@ -20,6 +20,6 @@
 		}
 		
 		public static function baseUrl(){
-			return (!empty(Config::load()['base'])) ? '/'. Config::load()['base'] . '/' : '/';
+			return (!empty(Config::load()['base']) && Config::load()['base'] != '/') ? '/'. Config::load()['base'] . '/' : '/';
 		}
 	}
