@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="670dce2f-8268-4d5f-b4af-df7f845d2eca" name="Default Changelist" comment="">
+    <list default="true" id="670dce2f-8268-4d5f-b4af-df7f845d2eca" name="Default Changelist" comment="fixed Config::baseUrl()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/layouts/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layouts/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/site/modals/employees-modals.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/modals/employees-modals.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mvp/src/models" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +61,7 @@
       <workItem from="1644397791942" duration="608000" />
       <workItem from="1644414386337" duration="12594000" />
       <workItem from="1644496715714" duration="11677000" />
-      <workItem from="1644517115283" duration="3089000" />
+      <workItem from="1644517115283" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1644518637984</created>
@@ -75,11 +77,28 @@
       <option name="project" value="LOCAL" />
       <updated>1644519748775</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed Config::baseUrl()">
+      <created>1644520580559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644520580559</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -87,7 +106,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="done" />
     <MESSAGE value="add missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add missing files" />
+    <MESSAGE value="fixed Config::baseUrl()" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed Config::baseUrl()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1644349848958">
@@ -102,10 +122,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644520319310" />
-    <state x="466" y="33" key="CommitChangelistDialog2" timestamp="1644519747837">
+    <state x="466" y="33" key="CommitChangelistDialog2" timestamp="1644522301589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="466" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644519747837" />
+    <state x="466" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644522301589" />
     <state x="751" y="243" key="NewPhpClassDialog" timestamp="1644500060177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -114,10 +134,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644515021383" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644519752732">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1644522766139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644519752732" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1644522766139" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644522173675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644522173675" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1644522793511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644522793511" />
     <state x="667" y="253" width="898" height="674" key="find.popup" timestamp="1644353973828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

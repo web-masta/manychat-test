@@ -24,12 +24,13 @@
 						<input type="number" class="form-control" id="salary" name="salary" placeholder="Зарплата" required>
 						<label for="lastname">Зарплата</label>
 					</div>
-					<div class="input-group mb-3">
+					<div class="form-floating input-group mb-3">
 						<select class="form-select" aria-label="Пол" name="gender" id="gender">
 							<option value="муж">муж</option>
 							<option value="жен">жен</option>
 							<option value="н\д">н\д</option>
 						</select>
+						<label for="gender">Пол</label>
 					</div>
 					<?php if (!empty($content['params']['departments'])) : ?>
 						<div class="form-floating input-group mb-3">
