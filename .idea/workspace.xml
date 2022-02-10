@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="670dce2f-8268-4d5f-b4af-df7f845d2eca" name="Default Changelist" comment="done">
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    <list default="true" id="670dce2f-8268-4d5f-b4af-df7f845d2eca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/install.php" beforeDir="false" afterPath="$PROJECT_DIR$/install.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/DB.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/DB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/DepartmentsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/DepartmentsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/EmployeesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/EmployeesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/ProjectsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/EmployeesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/EmployeesModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ProjectsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ProjectsModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/ReportModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ReportModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/layouts/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layouts/html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/layouts/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layouts/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/departments.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/departments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/employees.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/employees.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/modals/employees-modals.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/modals/employees-modals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/modals/projects-modals.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/modals/projects-modals.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/site/report.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/site/report.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +58,24 @@
       <workItem from="1644397791942" duration="608000" />
       <workItem from="1644414386337" duration="12594000" />
       <workItem from="1644496715714" duration="11677000" />
-      <workItem from="1644517115283" duration="1449000" />
+      <workItem from="1644517115283" duration="2118000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1644518637984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644518637984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="done" />
     <option name="LAST_COMMIT_MESSAGE" value="done" />
@@ -112,6 +93,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644497403008" />
+    <state x="466" y="33" key="CommitChangelistDialog2" timestamp="1644518635777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="466" y="33" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1644518635777" />
     <state x="751" y="243" key="NewPhpClassDialog" timestamp="1644500060177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -120,6 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644515021383" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1644518650877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644518650877" />
     <state x="667" y="253" width="898" height="674" key="find.popup" timestamp="1644353973828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
