@@ -2,7 +2,7 @@
 
 
 <div class="container-fluid px-4">
-	<h1 class="mt-4"><?= $content['data']['title'] ?></h1>
+	<h1 class="mt-4"><?= $content['params']['title'] ?></h1>
 </div>
 
 
@@ -13,7 +13,7 @@
 	</div>
 	
 	<div class="card-body">
-		<table id="reportTable">
+		<table id="reportTable" class="table">
 			<thead>
 			<tr>
 				<th>ID</th>
@@ -21,64 +21,21 @@
 				<th>Бюджет</th>
 			</tr>
 			</thead>
-			<tfoot>
-			<tr>
-				<th>ID</th>
-				<th>Название проекта</th>
-				<th>Бюджет</th>
-			</tr>
-			</tfoot>
 			<tbody>
-			<tr>
-				<td>1</td>
-				<td>System Architect</td>
-				<td>320800</td>
-			</tr>
-			<tr>
-				<td>22</td>
-				<td>Accountant</td>
-				<td>170750</td>
-			</tr>
-			<tr>
-				<td>14</td>
-				<td>Junior Technical Author</td>
-				<td>86000</td>
-			</tr>
-			<tr>
-				<td>7</td>
-				<td>Senior Javascript Developer</td>
-				<td>433060</td>
-			</tr>
-			<tr>
-				<td>9</td>
-				<td>Accountant</td>
-				<td>162700</td>
-			</tr>
-			<tr>
-				<td>11</td>
-				<td>Integration Specialist</td>
-				<td>372000</td>
-			</tr>
-			<tr>
-				<td>34</td>
-				<td>Sales Assistant</td>
-				<td>137500</td>
-			</tr>
-			<tr>
-				<td>3</td>
-				<td>Integration Specialist</td>
-				<td>327900</td>
-			</tr>
-			<tr>
-				<td>54</td>
-				<td>Javascript Developer</td>
-				<td>205500</td>
-			</tr>
-			<tr>
-				<td>32</td>
-				<td>Software Engineer</td>
-				<td>103600</td>
-			</tr>
+			
+			<?php
+				if (!empty($content['params']['data'])) {
+					foreach ($content['params']['data'] as $key => $row) {
+						?>
+						<tr>
+							<td><?=$row['id']?></td>
+							<td><?=$row['name']?></td>
+							<td><?=$row['money']?></td>
+						</tr>
+						<?php
+					}
+				}
+				?>
 			</tbody>
 		</table>
 	</div>

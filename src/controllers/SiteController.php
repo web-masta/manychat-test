@@ -3,6 +3,7 @@
 	namespace Ivan\controllers;
 	
 	use Ivan\App\Controller;
+	use Ivan\models\ReportModel;
 	
 	class SiteController extends Controller
 	{
@@ -12,7 +13,7 @@
 				'view' => 'site/report',
 				'params' => [
 					'title' => 'Отчет',
-					'query' => '',
+					'data' => ReportModel::getReport(),
 				],
 			];
 			return $this->render($this->data);

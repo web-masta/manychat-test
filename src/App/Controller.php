@@ -7,8 +7,17 @@
 	{
 		public function render($data) {
 			return [
-				'filename' => dirname(__FILE__,2) . '/views/' . $data['view'] . '.php',
-				'data' => $data['params'],
+				'filename' => BASE . '/src/views/' . $data['view'] . '.php',
+				'params' => $data['params'],
 			];
+		}
+		
+		public function goto($uri) {
+			header('Location: ' . $uri);
+			die();
+		}
+		
+		public function postMethod() {
+			return ($_SERVER['REQUEST_METHOD'] === 'POST');
 		}
 	}

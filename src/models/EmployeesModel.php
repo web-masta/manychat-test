@@ -2,10 +2,9 @@
 	
 	namespace Ivan\models;
 	
-	use Ivan\App\DB;
 	use \Ivan\App\Model;
 	
-	class DepartmentsModel extends Model
+	class EmployeesModel extends Model
 	{
-		protected static $table = 'departments';
+		protected static $table = 'employees';
 	}

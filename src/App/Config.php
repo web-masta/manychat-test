@@ -1,17 +1,25 @@
 <?php
 	
 	
-	namespace Ivan\controllers;
+	namespace Ivan\App;
 	
 	
 	class Config
 	{
 		private static $config_file;
 		
-		public function load() {
-			$this->config_file = dirname(__FILE__, 2) . '/config.php';
-			if (file_exists($this->config_file)) {
-				return include $this->config_file;
+		public static function load() {
+			
+			self::$config_file = BASE . '/src/config.php';
+			
+			if (file_exists(self::$config_file)) {
+				return include self::$config_file;
+			} else {
+				return self::$config_file;
 			}
+		}
+		
+		public static function baseUrl(){
+			return (!empty(Config::load()['base'])) ? '/'. Config::load()['base'] . '/' : '/';
 		}
 	}

@@ -9,7 +9,7 @@
 			<form method="post" id="create-edit-form" action="<?= $_SERVER['REQUEST_URI'] ?>">
 				<div class="modal-body">
 					<div class="mb-3">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Название отдела">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Название проекта">
 						<input type="hidden" id="id" name="id" value="">
 					</div>
 				</div>
@@ -27,7 +27,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="departmentsModalLabel">Вы действительно хотите удалить отдел?</h5>
+				<h5 class="modal-title" id="departmentsModalLabel">Вы действительно хотите удалить проект?</h5>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="modal-body">

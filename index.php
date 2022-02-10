@@ -1,20 +1,19 @@
 <?php
 	use \Ivan\App\Routing;
-	//use \Ivan\controllers\SiteController;
+
 	$autoload = dirname(__FILE__) . '/vendor/autoload.php';
 	if(file_exists($autoload)) {
 		require_once $autoload;
 	}
 	
-	$route = new Routing($_SERVER['REQUEST_URI']);
+	$path = strtok($_SERVER['REQUEST_URI'], '?');
 	
-	$controller = '\\Ivan\\controllers\\' . $route->getController();
-	$method = $route->getMethod();
+	$route = new Routing($path);
 	
-	//echo $controller;
-	//echo '<BR>';
-	//echo $method;
-	
+		$controller = '\\Ivan\\controllers\\' . $route->getController();
+		
+		$method = $route->getMethod();
+		
 	$app = new $controller();
 	
 	if(method_exists($app, $method)) {

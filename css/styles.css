@@ -2712,8 +2712,8 @@ textarea.form-control-lg {
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-select, .form-floating > .dataTable-selector {
-  padding-top: 1.625rem;
-  padding-bottom: 0.625rem;
+  padding-top: 1.625rem !important;
+  padding-bottom: 0.625rem !important;
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown) ~ label, .form-floating > .dataTable-input:not(:-moz-placeholder-shown) ~ label {
   opacity: 0.65;
@@ -11576,9 +11576,9 @@ body {
 .dataTable-selector {
   width: auto;
   display: inline-block;
-  padding-left: 1.125rem;
-  padding-right: 2.125rem;
-  margin-right: 0.25rem;
+  padding-left: 1.125rem !important;
+  padding-right: 2.125rem !important;
+  margin-right: 0.25rem !important;
 }
 
 .dataTable-info {
@@ -11704,3 +11704,4 @@ body {
 .delete-title {
   font-weight: 600;
 }
+.datepicker {z-index: 2000 !important;}

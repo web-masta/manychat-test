@@ -2,35 +2,24 @@
 	
 	namespace Ivan\App;
 	
-	use Ivan\controllers\Config;
+	use Ivan\App\Config;
 	use PDO;
 	
 	class DB
 	{
-
-		private static $connection = null;
-		private static $config;
-		
-		public function __construct() {
-			$cnfg = new Config();
-			self::$config = $cnfg->load();
-		}
-		
-		public static function instance()
+		public static function connect()
 		{
+			$config = Config::load();
+			$dsn = "mysql:host={$config['db_host']};dbname={$config['db_name']};charset={$config['db_charset']}";
 			
-			if (null === self::$connection) {
+			try {
 				
-				$configObj = new Config();
-				$config = $configObj->load();
+				$pdo = new PDO($dsn, $config['db_user'], $config['db_password']);
+				$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+				return $pdo;
 				
-				self::$connection = new PDO(
-					"mysql:host={$config['db_host']};dbname={$config['db_name']};charset={$config['db_charset']}",
-					$config['db_user'],
-					$config['db_password']
-				);
+			} catch (\PDOException $e) {
+				echo 'Connection failed: ' . $e->getMessage();
 			}
-			
-			return self::$connection;
 		}
 	}

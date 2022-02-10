@@ -4,7 +4,7 @@
 	
 	use \Ivan\App\Model;
 	
-	class EmployeesModel extends Model
+	class ProjectsModel extends Model
 	{
-		protected static $table = 'employees';
+		protected static $table = 'projects';
 	}
