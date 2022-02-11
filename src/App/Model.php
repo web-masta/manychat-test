@@ -31,7 +31,7 @@
 			
 			$cols[] = 'created';
 			$placeholders[] = ':created';
-			$values['created'] = date("Y-m-d H:i:s", strtotime('+3 hours'));
+			$values['created'] = date("Y-m-d H:i:s");
 			
 			foreach ($data as $key => $value) {
 				if(!empty($value)) {
@@ -53,7 +53,7 @@
 			$values = [];
 			
 			$placeholders[] = 'updated = :updated';
-			$values['updated'] = date("Y-m-d H:i:s", strtotime('+3 hours'));
+			$values['updated'] = date("Y-m-d H:i:s");
 			
 			foreach ($data as $key => $value) {
 				if(!empty($value) && $key != 'id') {
