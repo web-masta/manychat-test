@@ -36,7 +36,7 @@ createEdit.addEventListener('show.bs.modal', function (event) {
     
     if(action === 'edit') {
         inputName.value = depTitle
-        form.action = form.action + '/update'
+        form.action = window.location.href + '/update'
         inputId.value = depId
     
         if(createEdit.querySelector('input[name=\'lastname\']')) {
@@ -50,7 +50,8 @@ createEdit.addEventListener('show.bs.modal', function (event) {
     }
     if (action === 'create') {
         inputName.value = ''
-        form.action = form.action + '/create'
+        form.action = window.location.href + '/create'
+        inputId.value = ''
     }
     
     modalTitle.textContent = depTitle

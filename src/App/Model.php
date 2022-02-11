@@ -23,9 +23,8 @@
 			return self::connect()->query($query)->fetchAll();
 		}
 		
-		public static function create() {
+		public static function create(Array $data) {
 			
-			$data = $_POST;
 			$cols = [];
 			$placeholders = [];
 			$values = [];
@@ -48,9 +47,8 @@
 			return $prepare->execute($values);
 		}
 		
-		public static function update() {
+		public static function update(Array $data) {
 			
-			$data = $_POST;
 			$placeholders = [];
 			$values = [];
 			

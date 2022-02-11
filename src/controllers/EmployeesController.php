@@ -38,15 +38,17 @@
 		}
 		
 		public function actionCreate() {
-			if($this->postMethod()) {
-				EmployeesModel::create();
+			$data = $this->getPost();
+			if($this->postMethod() && empty($data['id'])) {
+				EmployeesModel::create($data);
 			}
 			$this->goto(Config::baseUrl() . 'employees');
 		}
 		
 		public function actionUpdate() {
-			if($this->postMethod() && !empty($_POST['id'])) {
-				EmployeesModel::update();
+			$data = $this->getPost();
+			if($this->postMethod() && !empty($data['id'])) {
+				EmployeesModel::update($data);
 			}
 			$this->goto(Config::baseUrl() . 'employees');
 		}

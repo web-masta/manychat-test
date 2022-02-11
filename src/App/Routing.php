@@ -42,8 +42,6 @@
 					'controller_path' => $controllerPath,
 					'controller' => ucwords($controller),
 					'method' => $controllerMethod,
-					'get' => $_GET,
-					'post' => $_POST,
 				];
 				
 				return;
@@ -61,16 +59,6 @@
 		public function getMethod()
 		{
 			return $this->out['method'];
-		}
-		
-		public function getGet()
-		{
-			return htmlspecialchars($this->out['get']);
-		}
-		
-		public function getPost()
-		{
-			return htmlspecialchars($this->out['post']);
 		}
 		
 		public function notFound() {
